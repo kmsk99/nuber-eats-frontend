@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer utilities {
+    .input {
+        @apply p-3 text-lg transition-colors border-2 border-gray-200 focus:outline-none focus:border-gray-500;
+    }
+}
