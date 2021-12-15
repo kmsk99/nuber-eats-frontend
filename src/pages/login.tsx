@@ -33,7 +33,6 @@ export const Login = () => {
         register,
         getValues,
         handleSubmit,
-        setError,
         formState: { errors },
         formState,
     } = useForm<ILoginForm>({
