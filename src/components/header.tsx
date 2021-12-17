@@ -19,7 +19,7 @@ export const Header: React.FC = () => {
                     <Link to="/">
                         <img
                             src={nuberLogo}
-                            className="w-36"
+                            className="w-44"
                             alt="Nuber Eats"
                         />
                     </Link>
@@ -27,7 +27,7 @@ export const Header: React.FC = () => {
                         <Link to="/edit-profile">
                             <FontAwesomeIcon
                                 icon={faUser}
-                                className="text-xl"
+                                className="text-3xl"
                             />
                         </Link>
                     </span>
