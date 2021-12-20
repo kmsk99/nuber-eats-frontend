@@ -11284,6 +11284,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"mock-apollo-client@npm:^1.2.0":
+  version: 1.2.0
+  resolution: "mock-apollo-client@npm:1.2.0"
+  peerDependencies:
+    "@apollo/client": ^3.0.0
+  checksum: 073df138b82cdbeb10344d0dd36ceb3e1418b140b7498c52a46fd590dafcb3b459cd105c2b7f255cc4e320a8e34351d33bec9885ab99b5f2f0b1ab782b651233
+  languageName: node
+  linkType: hard
+
 "moment@npm:2.29.1, moment@npm:^2.22.1":
   version: 2.29.1
   resolution: "moment@npm:2.29.1"
@@ -11693,6 +11702,7 @@ __metadata:
     autoprefixer: ^10.4.0
     eslint-plugin-react-hooks: next
     graphql: ^15.8.0
+    mock-apollo-client: ^1.2.0
     postcss: ^8.4.5
     react: ^17.0.2
     react-dom: ^17.0.2
