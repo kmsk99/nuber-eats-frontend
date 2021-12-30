@@ -1721,6 +1721,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@googlemaps/js-api-loader@npm:^1.7.0":
+  version: 1.12.12
+  resolution: "@googlemaps/js-api-loader@npm:1.12.12"
+  dependencies:
+    fast-deep-equal: ^3.1.3
+  checksum: f2dc3abfb2b68c9338367dd02c0304e6c18d3f6b599f0207c4459a62db84b432d539322ac0ef5b87006697806ab5b0ab7bdb7ef23734844c5d9c298650285924
+  languageName: node
+  linkType: hard
+
 "@graphql-typed-document-node/core@npm:^3.0.0":
   version: 3.1.1
   resolution: "@graphql-typed-document-node/core@npm:3.1.1"
@@ -2015,6 +2024,13 @@ __metadata:
     "@types/yargs": ^16.0.0
     chalk: ^4.0.0
   checksum: 1191022023e32763063cc1c8b1143fa316fb05db2f9698280a7bdbafcabd989e5fd64f8eb875b8a2e54c53f25dba45ed2eea8ced394d9e484da0fda674cd17a5
+  languageName: node
+  linkType: hard
+
+"@mapbox/point-geometry@npm:^0.1.0":
+  version: 0.1.0
+  resolution: "@mapbox/point-geometry@npm:0.1.0"
+  checksum: ed41c1ce0140de81039424415d9a199abba72cdb2287314e1b8c3e295da3224f7e8c1b0ae99a9b097703e7abe63e1978a518e29896989cc8bba3d482360bc22f
   languageName: node
   linkType: hard
 
@@ -2644,6 +2660,22 @@ __metadata:
     "@types/minimatch": "*"
     "@types/node": "*"
   checksum: 6ae717fedfdfdad25f3d5a568323926c64f52ef35897bcac8aca8e19bc50c0bd84630bbd063e5d52078b2137d8e7d3c26eabebd1a2f03ff350fff8a91e79fc19
+  languageName: node
+  linkType: hard
+
+"@types/google-map-react@npm:^2.1.3":
+  version: 2.1.3
+  resolution: "@types/google-map-react@npm:2.1.3"
+  dependencies:
+    "@types/react": "*"
+  checksum: 5bef80b2c3969afc00b58c02f697d2b18a493257718fd997a2d438046ca64076c807b2d2dfa84f33ec21b235e7fde55368ae33e04b94af27a56bb8363292044c
+  languageName: node
+  linkType: hard
+
+"@types/googlemaps@npm:^3.43.3":
+  version: 3.43.3
+  resolution: "@types/googlemaps@npm:3.43.3"
+  checksum: e08a1fd0c591812359be79f1f5952758a45e2967e117a444c5494eacb03588231cbfeebec0e349063cb2c1dba99226a26378578a6d7a5ea4dab08169e11be77d
   languageName: node
   linkType: hard
 
@@ -4540,6 +4572,13 @@ __metadata:
   bin:
     babylon: ./bin/babylon.js
   checksum: 0777ae0c735ce1cbfc856d627589ed9aae212b84fb0c03c368b55e6c5d3507841780052808d0ad46e18a2ba516e93d55eeed8cd967f3b2938822dfeccfb2a16d
+  languageName: node
+  linkType: hard
+
+"backo2@npm:^1.0.2":
+  version: 1.0.2
+  resolution: "backo2@npm:1.0.2"
+  checksum: fda8d0a0f4810068d23715f2f45153146d6ee8f62dd827ce1e0b6cc3c8328e84ad61e11399a83931705cef702fe7cbb457856bf99b9bd10c4ed57b0786252385
   languageName: node
   linkType: hard
 
@@ -7746,7 +7785,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eventemitter3@npm:^4.0.0":
+"eventemitter3@npm:^3.1.0":
+  version: 3.1.2
+  resolution: "eventemitter3@npm:3.1.2"
+  checksum: 81e4e82b8418f5cfd986d2b4a2fa5397ac4eb8134e09bcb47005545e22fdf8e9e61d5c053d34651112245aae411bdfe6d0ad5511da0400743fef5fc38bfcfbe3
+  languageName: node
+  linkType: hard
+
+"eventemitter3@npm:^4.0.0, eventemitter3@npm:^4.0.4":
   version: 4.0.7
   resolution: "eventemitter3@npm:4.0.7"
   checksum: 1875311c42fcfe9c707b2712c32664a245629b42bb0a5a84439762dd0fd637fc54d078155ea83c2af9e0323c9ac13687e03cfba79b03af9f40c89b4960099374
@@ -8847,6 +8893,21 @@ __metadata:
     lodash: ~4.17.10
     minimatch: ~3.0.2
   checksum: 424b0503791fcaec526aff9a68fd08b6360fd4ec6a406a624ba385d410f3f363e8a1ee7d7fb2ef6448b7f5cd6458256ea08f4b9ef32dbd222977956a6171fc6b
+  languageName: node
+  linkType: hard
+
+"google-map-react@npm:^2.1.10":
+  version: 2.1.10
+  resolution: "google-map-react@npm:2.1.10"
+  dependencies:
+    "@googlemaps/js-api-loader": ^1.7.0
+    "@mapbox/point-geometry": ^0.1.0
+    eventemitter3: ^4.0.4
+    prop-types: ^15.7.2
+  peerDependencies:
+    react: ^16.0.0 || ^17.0.0
+    react-dom: ^16.0.0 || ^17.0.0
+  checksum: 0e0d0639e83eda3f14bd0bc946e0bfccd65f053aed790f6113d8625e7a70d428d10ad68f374feafb6787f5dfcf9d785c67ab4b9d2315d2860a6f9db02a230f97
   languageName: node
   linkType: hard
 
@@ -10326,6 +10387,13 @@ __metadata:
     html-escaper: ^2.0.0
     istanbul-lib-report: ^3.0.0
   checksum: a9940767ee960fd21d4c9b24c417c15d38725be2f3517a72070e962e088fdf7b813f50985f660cd48436690237fdc5640bab10a1a91e0e94b0e400c212c85f3c
+  languageName: node
+  linkType: hard
+
+"iterall@npm:^1.2.1":
+  version: 1.3.0
+  resolution: "iterall@npm:1.3.0"
+  checksum: c78b99678f8c99be488cca7f33e4acca9b72c1326e050afbaf023f086e55619ee466af0464af94a0cb3f292e60cb5bac53a8fd86bd4249ecad26e09f17bb158b
   languageName: node
   linkType: hard
 
@@ -12414,6 +12482,8 @@ __metadata:
     "@testing-library/jest-dom": ^5.11.4
     "@testing-library/react": ^11.1.0
     "@testing-library/user-event": ^12.1.10
+    "@types/google-map-react": ^2.1.3
+    "@types/googlemaps": ^3.43.3
     "@types/jest": ^26.0.15
     "@types/node": ^12.0.0
     "@types/react": ^17.0.0
@@ -12424,6 +12494,7 @@ __metadata:
     autoprefixer: ^10.4.0
     cypress: ^9.1.1
     eslint-plugin-react-hooks: next
+    google-map-react: ^2.1.10
     graphql: ^15.8.0
     mock-apollo-client: ^1.2.0
     postcss: ^8.4.5
@@ -12434,6 +12505,7 @@ __metadata:
     react-router-dom: ^6.0.2
     react-scripts: 4.0.3
     rimraf: ^3.0.2
+    subscriptions-transport-ws: ^0.11.0
     tailwindcss: ^3.0.2
     typescript: ^4.1.2
     victory: ^36.2.0
@@ -16476,6 +16548,21 @@ __metadata:
   languageName: node
   linkType: hard
 
+"subscriptions-transport-ws@npm:^0.11.0":
+  version: 0.11.0
+  resolution: "subscriptions-transport-ws@npm:0.11.0"
+  dependencies:
+    backo2: ^1.0.2
+    eventemitter3: ^3.1.0
+    iterall: ^1.2.1
+    symbol-observable: ^1.0.4
+    ws: ^5.2.0 || ^6.0.0 || ^7.0.0
+  peerDependencies:
+    graphql: ^15.7.2 || ^16.0.0
+  checksum: cc2e98d5c9d89c44d2e15eca188781c6ebae13d1661c42a99cee9d2897aebe2a22bc118eefff83244a79c88ee4ea24d46973ebf26ae7cb47ac1857fb8ee2c947
+  languageName: node
+  linkType: hard
+
 "supports-color@npm:^2.0.0":
   version: 2.0.0
   resolution: "supports-color@npm:2.0.0"
@@ -16569,7 +16656,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"symbol-observable@npm:^1.1.0":
+"symbol-observable@npm:^1.0.4, symbol-observable@npm:^1.1.0":
   version: 1.2.0
   resolution: "symbol-observable@npm:1.2.0"
   checksum: 48ffbc22e3d75f9853b3ff2ae94a44d84f386415110aea5effc24d84c502e03a4a6b7a8f75ebaf7b585780bda34eb5d6da3121f826a6f93398429d30032971b6
@@ -18680,16 +18767,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ws@npm:^6.2.1":
-  version: 6.2.2
-  resolution: "ws@npm:6.2.2"
-  dependencies:
-    async-limiter: ~1.0.0
-  checksum: aec3154ec51477c094ac2cb5946a156e17561a581fa27005cbf22c53ac57f8d4e5f791dd4bbba6a488602cb28778c8ab7df06251d590507c3c550fd8ebeee949
-  languageName: node
-  linkType: hard
-
-"ws@npm:^7.4.6":
+"ws@npm:^5.2.0 || ^6.0.0 || ^7.0.0, ws@npm:^7.4.6":
   version: 7.5.6
   resolution: "ws@npm:7.5.6"
   peerDependencies:
@@ -18701,6 +18779,15 @@ __metadata:
     utf-8-validate:
       optional: true
   checksum: 0c2ffc9a539dd61dd2b00ff6cc5c98a3371e2521011fe23da4b3578bb7ac26cbdf7ca8a68e8e08023c122ae247013216dde2a20c908de415a6bcc87bdef68c87
+  languageName: node
+  linkType: hard
+
+"ws@npm:^6.2.1":
+  version: 6.2.2
+  resolution: "ws@npm:6.2.2"
+  dependencies:
+    async-limiter: ~1.0.0
+  checksum: aec3154ec51477c094ac2cb5946a156e17561a581fa27005cbf22c53ac57f8d4e5f791dd4bbba6a488602cb28778c8ab7df06251d590507c3c550fd8ebeee949
   languageName: node
   linkType: hard
 
