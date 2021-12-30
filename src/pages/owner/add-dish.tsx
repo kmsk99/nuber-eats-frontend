@@ -29,7 +29,7 @@ interface IForm {
 export const AddDish = () => {
     const { restaurantId } = useParams<'restaurantId'>();
     const history = useNavigate();
-    const [createDishMutation, { loading }] = useMutation<
+    const [createDishMutation, { loading, error }] = useMutation<
         createDish,
         createDishVariables
     >(CREATE_DISH_MUTATION, {
@@ -65,6 +65,7 @@ export const AddDish = () => {
                 },
             },
         });
+        console.log(error);
         history(-1);
     };
     const [optionsNumber, setOptionsNumber] = useState<number[]>([]);

@@ -139,7 +139,7 @@ export const Restaurant = () => {
         const {
             createOrder: { ok, orderId },
         } = data;
-        if (data.createOrder.ok) {
+        if (ok) {
             history(`/orders/${orderId}`);
         }
     };
@@ -150,6 +150,9 @@ export const Restaurant = () => {
         onCompleted,
     });
     const triggerConfirmOrder = () => {
+        if (placingOrder) {
+            return;
+        }
         if (orderItems.length === 0) {
             alert("Can't place empty order");
             return;
@@ -179,7 +182,7 @@ export const Restaurant = () => {
                     backgroundImage: `url(${data?.restaurant.restaurant?.coverImg})`,
                 }}
             >
-                <div className="w-3/12 py-8 pl-48 bg-white">
+                <div className="py-8 pl-48 bg-white xl:w-3/12">
                     <h4 className="mb-3 text-4xl">
                         {data?.restaurant.restaurant?.name}
                     </h4>
